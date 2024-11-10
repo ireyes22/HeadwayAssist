@@ -5,9 +5,9 @@ import java.sql.SQLException;
 
 public class Conexion_db {
 	
-	private static final String URL = "jdbc:mysql://sql.freedb.tech:3306/freedb_trabajo?serverTimezone=UTC";
-    private static final String USERNAME = "freedb_kris12";
-    private static final String PASSWORD = "@hAh6K*Vk#Q*acS";
+	private static final String URL = "jdbc:mysql://localHost:3306/headway?serverTimezone=UTC";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "";
 	
 	public static Connection getConexion() throws SQLException,ClassNotFoundException{
 		Class.forName("com.mysql.cj.jdbc.Driver");
